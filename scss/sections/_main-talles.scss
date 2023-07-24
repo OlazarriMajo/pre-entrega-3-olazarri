@@ -1,0 +1,36 @@
+.main {
+    background-image: linear-gradient(to bottom,#fbd39a,#FFF8D6);
+
+    .main h1 {
+        color: $choco-medio;
+        text-align: center;
+        font-family: 'Lumanosimo', cursive;
+        font-size: xx-large;
+        padding: 30px;
+        }
+        .main h2 {
+            color: $choco-medio;
+            text-transform: uppercase;
+            font-family: 'Lumanosimo', cursive;
+            text-align: center;
+            font-size: 30px;
+            padding: 20px;
+        }
+        .table{
+            margin: auto;
+            display: flex;
+            align-items: center;
+            width: 40%;
+        }
+        #volver {
+            color: $choco-medio;
+            font-family: 'Ysabeau Infant', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            width: 200px;
+            text-decoration: none;
+        }
+        
+}

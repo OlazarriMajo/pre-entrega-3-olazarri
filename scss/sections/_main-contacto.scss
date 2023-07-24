@@ -1,0 +1,50 @@
+.main {
+    background-image: linear-gradient(to bottom,#fbd39a,#FFF8D6);
+
+    h1 {
+        color: $choco-medio;
+        text-align: center;
+        font-family: 'Lumanosimo', cursive;
+        font-size: xx-large;
+        padding: 30px;
+        }
+        h2 {
+            color: $choco-medio;
+            text-transform: uppercase;
+            font-family: 'Lumanosimo', cursive;
+            text-align: center;
+            font-size: 30px;
+            padding: 20px;
+        }
+        #map {
+            width: 300px;
+            height: 200px;
+            display: flex !important;
+            align-items: center;
+            justify-content: space-around;
+            margin: 20px auto;
+        }
+        .formulario {
+            background-image: url(https://s1.eestatic.com/2021/04/13/actualidad/573454513_178079001_1706x960.jpg);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: cover;
+            height: 300px;
+            width: 300px;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        #volver {
+            color: $choco-medio;
+            font-family: 'Ysabeau Infant', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            width: 200px;
+            text-decoration: none;
+        }
+}

@@ -1,0 +1,26 @@
+.header {
+    background-color:$choco-claro;
+
+    .navbar {
+        background-color: $choco-claro;
+        padding: 0;
+
+        .container-fluid {
+            background-color: $choco-claro;
+
+            img {
+                width: 150px;
+            }
+
+            .container-fluid {
+
+                background-color: $choco-claro;
+                color: $mostaza;
+                font-family: 'Ysabeau Infant', sans-serif;
+                text-transform: uppercase;
+                font-size: 20px;
+
+            }
+        }
+    }
+}

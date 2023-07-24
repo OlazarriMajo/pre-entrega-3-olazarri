@@ -1,0 +1,69 @@
+.main {
+    background-image: linear-gradient(to bottom,#fbd39a,#FFF8D6);
+    h1 {
+        color: $choco-medio;
+        text-align: center;
+        font-family: 'Lumanosimo', cursive;
+        font-size: xx-large;
+        padding: 30px;
+
+    }
+
+    .introduccion p {
+        color: $naranja-marron;
+        text-align: right;
+        width: 400px;
+        margin: auto;
+        font-size: 20px;
+        font-family: 'Ysabeau Infant', sans-serif;
+        text-align: justify;
+    }
+
+    #carouselExampleDark {
+        width: 80%;
+        margin: auto;
+        padding: auto;
+        .imagen {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: space-evenly;
+            width: 70%;
+            margin: 50px auto;
+        }
+        h3 {
+            color: $naranjoso;
+        }
+
+        .carouse-text {
+            background-color: $amarillo-marron;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .tendencias {
+        font-weight: bolder;
+        font-family: 'Ysabeau Infant', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $mostaza;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    #volver {
+        color: $choco-medio;
+        font-family: 'Ysabeau Infant', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 200px;
+        text-decoration: none;
+    }
+
+
+}

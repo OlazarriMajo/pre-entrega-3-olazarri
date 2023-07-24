@@ -1,0 +1,79 @@
+@import'./variables/colors';
+@import'./variables/fonts';
+@import'./sections/header';
+@import'./sections/main-index';
+@import'./sections/main-talles';
+@import'./sections/main-productos';
+@import'./sections/main-cuidados';
+@import'./sections/main-contacto';
+@import'./sections/footer';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: $naranjoso;
+    font-weight:bolder;
+    text-decoration: underline;
+}
+
+a:link {
+    color: $naranjoso;
+}
+
+a:visited {
+    color: $choco-amargo;
+}
+
+input:hover {
+    color:$naranjoso;
+    font-weight: bolder;
+   
+}
+
+select:hover {
+    background-color: $choco-medio;
+    color: $naranjoso;
+   
+}
+
+input:focus {
+    background-color: $choco-medio;
+    color: $naranjoso;
+    border-radius: 10px;
+}
+
+@media (min-width: 769px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .header ul {
+       gap:7px
+    }
+    .introduccion p{
+        width: 600px;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .cuidados {
+        margin: auto;
+    }
+    
+}
+@media (min-width:1439px){
+    .header ul {
+        gap: 15px;
+     }
+     .products {
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+
+
+
+}

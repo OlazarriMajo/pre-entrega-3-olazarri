@@ -1,0 +1,129 @@
+.main {
+    background-image: linear-gradient(to bottom,#fbd39a,#FFF8D6);
+
+    h1 {
+        color: $choco-medio;
+        text-align: center;
+        font-family: 'Lumanosimo', cursive;
+        font-size: xx-large;
+        padding: 30px;
+
+    }
+
+    .submenu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-family: 'Lumanosimo', cursive;
+        text-align: center;
+        list-style-type: none;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        .submenu li {
+            margin: 10px;
+            font: size 8px;
+            text-decoration: none;
+
+            .submenu a {
+                color: $choco-medio;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .main h2 {
+        color: $choco-medio;
+        text-transform: uppercase;
+        font-family: 'Lumanosimo', cursive;
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 80vw;
+
+        .card {
+            border-radius: 20px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 30%;
+            margin: 10px;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                list-style-type: none;
+                font-family: 'Ysabeau Infant', sans-serif;
+                margin: 10px;
+            }
+
+            .card-img-top {
+                max-width: 150px;
+                max-height: 130px;
+                padding: 10px;
+                border-radius: 40%;
+            }
+
+            .card-body {
+                border-radius: 20px;
+
+                .card-title {
+                    color: $choco-medio;
+                    font-family: 'Lumanosimo', cursive;
+                    margin: 10px;
+                    text-align: center;
+                }
+
+                .card-text {
+                    margin: 8px;
+                    text-align: center;
+                    
+                }
+
+                #talles {
+                    background-image: none;
+                    display: flex;
+                    width: auto;
+                    height: auto;
+                    .form-select{
+                        border-radius: 8px;
+                        background-color: $choco-amargo;
+                        color: $mostaza;
+                        margin: 8px;
+                    }
+                }
+
+                .button {
+                    border-radius: 5px;
+                    background-color: $choco-amargo;
+                    color: $mostaza;
+                    margin: 8px;
+                }
+            }
+        }
+
+
+
+    }
+    #volver {
+        color: $choco-medio;
+        font-family: 'Ysabeau Infant', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 200px;
+        text-decoration: none;
+    }
+}

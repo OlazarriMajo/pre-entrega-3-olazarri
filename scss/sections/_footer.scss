@@ -1,0 +1,15 @@
+.footer {
+    background-color: $choco-claro;
+    color: $naranjita;
+    height: 150px;
+    .redes-sociales{
+        display: flex;
+        align-items: flex-start; 
+        justify-content: start;
+       margin: 10px;
+       img{
+        width: 30px;
+       }
+       
+    }
+}

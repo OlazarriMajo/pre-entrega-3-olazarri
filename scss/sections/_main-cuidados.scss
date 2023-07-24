@@ -1,0 +1,70 @@
+.main {
+    background-image: linear-gradient(to bottom,#fbd39a,#FFF8D6);
+
+    h1 {
+        color: $choco-medio;
+        text-align: center;
+        font-family: 'Lumanosimo', cursive;
+        font-size: xx-large;
+        padding: 30px;
+    
+    }
+    .submenu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-family: 'Lumanosimo', cursive;
+        text-align: center;
+        list-style-type: none;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        .submenu li {
+            margin: 10px;
+            font: size 8px;
+            text-decoration: none;
+
+            .submenu a {
+                color: $choco-medio;
+                text-decoration: none;
+            }
+        }
+    }
+     h2 {
+        color: $choco-medio;
+        text-transform: uppercase;
+        font-family: 'Lumanosimo', cursive;
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .cuidados {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        max-width: 80%;
+        .ol {
+            font-family: 'Ysabeau Infant', sans-serif;
+            text-align: justify;
+            color: $choco-medio;
+            padding: 20px;
+            li {
+                padding-bottom: 10px;
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 18px;
+            }
+        }
+    }
+    #volver {
+        color: $choco-medio;
+        font-family: 'Ysabeau Infant', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 200px;
+        text-decoration: none;
+    }
+}
